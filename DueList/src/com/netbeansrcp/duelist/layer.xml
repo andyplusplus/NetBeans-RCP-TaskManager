@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="com-netbeansrcp-duelist-DueListAction.instance">
+                <attr name="component" methodvalue="com.netbeansrcp.duelist.DueListTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="com.netbeansrcp.duelist.Bundle#CTL_DueListAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="DueListAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/com-netbeansrcp-duelist-DueListAction.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="DueListTopComponent.settings" url="DueListTopComponentSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="properties">
+                <file name="DueListTopComponent.wstcref" url="DueListTopComponentWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

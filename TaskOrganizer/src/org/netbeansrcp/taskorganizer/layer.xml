@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-netbeansrcp-taskorganizer-DummyAction.instance">
+                <attr name="delegate" newvalue="org.netbeansrcp.taskorganizer.DummyAction"/>
+                <attr name="displayName" bundlevalue="org.netbeansrcp.taskorganizer.Bundle#CTL_DummyAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+            <file name="org-netbeansrcp-taskorganizer-TaskOrganizerAction.instance">
+                <attr name="component" methodvalue="org.netbeansrcp.taskorganizer.TaskOrganizerTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="org.netbeansrcp.taskorganizer.Bundle#CTL_TaskOrganizerAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <attr name="org-netbeansrcp-taskorganizer-DummyAction.shadow/DueListAction.shadow" boolvalue="true"/>
+            <file name="TaskOrganizerAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/org-netbeansrcp-taskorganizer-TaskOrganizerAction.instance"/>
+            </file>
+            <file name="org-netbeansrcp-taskorganizer-DummyAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/org-netbeansrcp-taskorganizer-DummyAction.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="TaskOrganizerTopComponent.settings" url="TaskOrganizerTopComponentSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="TaskOrganizerTopComponent.wstcref" url="TaskOrganizerTopComponentWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

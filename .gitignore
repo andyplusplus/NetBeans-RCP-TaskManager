@@ -1,0 +1,15 @@
+.#*
+*~
+*.class
+*.dll
+*.exe
+*.jar
+*.tsk
+*.zip
+build/
+classes/
+classes-generated/
+dist/
+!org-netbeans-core-windows.jar
+!core.jar
+*.tmp
