@@ -1,3 +1,6 @@
+* TODO
+** may have Warning - could not install some modules: Command-line Serviceability - The module named org.netbeans.modules.autoupdate.services was needed and not found.
+     could be solved by https://netbeans.org/bugzilla/show_bug.cgi?id=219556
 
 * DONE
 
